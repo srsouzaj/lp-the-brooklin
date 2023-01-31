@@ -4,12 +4,13 @@
     border-radius: 12px;
     display: flex;
     flex-direction: column;
-    margin: 1.5rem;
+    align-content: center;
+    justify-content: center;
+
     -webkit-box-shadow: 5px 6px 11px -4px rgba(157,141,141,1);
     -moz-box-shadow: 5px 6px 11px -4px rgba(157,141,141,1);
     box-shadow: 5px 6px 11px -4px rgba(157,141,141,1);
     cursor: pointer;
-
 }
 
 .description-discover{

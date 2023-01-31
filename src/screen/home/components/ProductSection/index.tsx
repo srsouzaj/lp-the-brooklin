@@ -7,21 +7,14 @@ import ProductDemonstration from "../../../../assets/product-demonstration.png"
 import ProductDemonstrationMobile from "../../../../assets/product-demonstration-mobile.png"
 import { ProductCard } from "../../../../components/cards/products"
 
-
 export const ProductSection = () => {
-    const settings = {
-        dots: true,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 1,
-        slidesToScroll: 1
-    };
 
 
     return (
         <>
             <Typography content={"Product"} type="heading" />
             <div className="card-list-product">
+
                 <ProductCard imageSrc={Product1}
                     description="intibiome wellness daily intimate wash"
                     type="wellness" />

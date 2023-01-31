@@ -30,7 +30,7 @@ a:hover{
 
 @media(max-width: 415px){
     footer{
-    height: 34rem;
+    height: 40rem;
     display: flex;
     flex-direction: column;
     padding: 2rem;

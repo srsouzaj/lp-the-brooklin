@@ -1,6 +1,15 @@
 button{
     margin: 0 !important;
-
+    width: 100% !important;
+    color: #FFFF;
+    font-size: 1rem;
+    background-color: #389CD6;
+    opacity: 1;
+    padding: 1rem 4rem;
+    border-radius: 12px;
+    border: none;  
+    cursor: pointer;
+    width: 100%;
 }
 
 .root {
