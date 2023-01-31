@@ -1,0 +1,23 @@
+.benefits-container{
+        padding: 2.5rem 26rem;
+}
+
+.benefits-img{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: 16.2rem;
+    margin: 0 auto;
+}
+
+@media(max-width: 415px){
+    .benefits-container{
+        padding: 2.5rem 1rem;
+    }
+
+    .benefits-img{
+        width: 100%;
+        height: 7.5rem;
+    }
+    
+}

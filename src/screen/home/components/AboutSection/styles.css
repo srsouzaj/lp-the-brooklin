@@ -1,0 +1,13 @@
+.about-container{
+    padding: 2.5rem 32rem;
+}
+
+
+@media(max-width: 415px){
+    .about-container{
+        padding: 2.5rem 1rem;
+    }
+}
+
+
+

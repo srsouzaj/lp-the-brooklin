@@ -1,0 +1,23 @@
+.product-container{
+
+}
+
+.img-demonstration{
+    width: 100%;
+    padding-top: 6.5rem; 
+}
+
+.card-list-product{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10rem;
+}
+
+@media(max-width: 415px){
+    .card-list-product{
+        display: flex;
+        padding: 0;
+        margin-left: 12px;
+        flex-wrap: wrap;
+    }
+}

@@ -1,0 +1,25 @@
+.container-discover{
+    width: 340px;
+    height: 356px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    margin: 1.5rem;
+    -webkit-box-shadow: 5px 6px 11px -4px rgba(157,141,141,1);
+    -moz-box-shadow: 5px 6px 11px -4px rgba(157,141,141,1);
+    box-shadow: 5px 6px 11px -4px rgba(157,141,141,1);
+    cursor: pointer;
+
+}
+
+.description-discover{
+    padding: 2rem 0;
+}
+
+@media(max-width: 415px){
+    
+.description-discover{
+    padding: 1rem 0;
+}
+}
+

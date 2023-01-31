@@ -1,0 +1,32 @@
+button{
+    margin: 0 !important;
+
+}
+
+.root {
+    display: flex;
+    justify-content: center;
+    width: 100vw;    
+  }
+
+  .menu-list{ 
+    display: flex;
+    justify-content: center;
+    border-radius: 6px;
+    list-style: none;
+    height: 48px;
+  }
+ 
+
+  .content{
+    display: flex;
+    position: absolute;
+    background-color: #7B7070;
+    border-radius: 12px;   
+  }
+
+  .content p{
+    color: #FFFF;
+    padding: 1rem;
+    cursor: pointer;
+  }

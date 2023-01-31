@@ -1,0 +1,23 @@
+h1{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #389CD6;
+    opacity: 1;
+    text-align: center;
+    letter-spacing: 0.04rem;
+    line-height: 3.125rem;
+    text-transform: lowercase;
+    padding: 2.5rem;
+}
+
+p{
+    color: #7B7070;
+    letter-spacing: 0.025rem;
+    text-align: center;
+    opacity: 1;
+    font-weight: normal;
+    line-height: 1.75rem;
+    font-weight: normal;
+    font-size: 1.125rem;
+    padding: 0.5rem;
+}
