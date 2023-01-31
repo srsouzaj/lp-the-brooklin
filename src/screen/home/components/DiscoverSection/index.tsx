@@ -3,7 +3,6 @@ import { Typography } from "../../../../components/Typography"
 import BGGramma from "../../../../assets/bg-gramma.png"
 import BGRunning from "../../../../assets/bg-running.png"
 import BGWater from "../../../../assets/bg-water.png"
-
 import "./styles.css"
 
 export const DiscoverSection = () => {
