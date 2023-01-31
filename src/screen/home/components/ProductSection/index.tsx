@@ -7,7 +7,17 @@ import ProductDemonstration from "../../../../assets/product-demonstration.png"
 import ProductDemonstrationMobile from "../../../../assets/product-demonstration-mobile.png"
 import { ProductCard } from "../../../../components/cards/products"
 
+
 export const ProductSection = () => {
+    const settings = {
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1
+    };
+
+
     return (
         <>
             <Typography content={"Product"} type="heading" />
@@ -23,6 +33,8 @@ export const ProductSection = () => {
                     imageSrc={Product3}
                     description="intibiome agecare dryness relief intimate wash"
                     type="agecare" />
+
+
             </div>
             {innerWidth > 415 ?
                 (<img src={ProductDemonstration} alt="demonstration" className="img-demonstration" />
