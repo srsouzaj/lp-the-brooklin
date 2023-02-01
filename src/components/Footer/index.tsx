@@ -15,8 +15,8 @@ export const Footer = () => {
             </div>
 
             <div className="links-img">
-                <img src={Logo} width="116px" height="29px" alt="Logo da U-labs" />
-                <img src={Instagram} width="42px" height="42px" alt="Logo for redirect instagram" />
+                <img src={Logo} id="ulabs" alt="Logo da U-labs" />
+                <img src={Instagram} id="instagram" alt="Logo for redirect instagram" />
             </div>
         </footer>
     )

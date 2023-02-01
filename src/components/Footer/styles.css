@@ -21,11 +21,21 @@ a:hover{
 }
 
 
-
 .links-img{
     display: flex;
     justify-content: space-between;
     
+}
+
+#ulabs{
+    width:116px;
+     height: 29px
+}
+
+
+#instagram{
+    width: 42px;
+    height: 42px
 }
 
 @media(max-width: 415px){

@@ -10,6 +10,13 @@
     margin: 0 auto;
 }
 
+@media(max-width: 1200px){
+    .benefits-container{
+        padding: 2.5rem 12rem;
+}
+    
+}
+
 @media(max-width: 415px){
     .benefits-container{
         padding: 2.5rem 1rem;

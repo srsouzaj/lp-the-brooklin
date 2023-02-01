@@ -5,11 +5,10 @@ button{
     font-size: 1rem;
     background-color: #389CD6;
     opacity: 1;
-    padding: 0.25rem 4rem;
+    padding: 0.25rem 2rem;
     border-radius: 12px;
     border: none;  
     cursor: pointer;
-    width: 100%;
 }
 
 .root {
@@ -23,7 +22,7 @@ button{
     justify-content: center;
     border-radius: 6px;
     list-style: none;
-    height: 48px;
+    height: 3rem;
   }
  
 
@@ -38,4 +37,10 @@ button{
     color: #FFFF;
     padding: 1rem;
     cursor: pointer;
+  }
+
+  @media(max-width: 1200px){
+    .menu-list{
+      height: 3.75rem;
+    }
   }
